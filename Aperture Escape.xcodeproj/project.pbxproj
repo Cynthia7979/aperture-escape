@@ -16,7 +16,6 @@
 		D54A1C8126AB3DE9003A1226 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A1C8026AB3DE9003A1226 /* IntroductionView.swift */; };
 		D54A1C8326AC6DA1003A1226 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A1C8226AC6DA1003A1226 /* Structs.swift */; };
 		D54A1C8526AC75D7003A1226 /* PretestChamberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A1C8426AC75D7003A1226 /* PretestChamberView.swift */; };
-		D54A1C8726AC7999003A1226 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A1C8626AC7999003A1226 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +51,6 @@
 		D54A1C8026AB3DE9003A1226 /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
 		D54A1C8226AC6DA1003A1226 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
 		D54A1C8426AC75D7003A1226 /* PretestChamberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretestChamberView.swift; sourceTree = "<group>"; };
-		D54A1C8626AC7999003A1226 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../../../../Downloads/Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +104,6 @@
 				D54A1C5326AB3D77003A1226 /* Aperture_EscapeApp.swift */,
 				D54A1C5526AB3D77003A1226 /* ContentView.swift */,
 				D54A1C8226AC6DA1003A1226 /* Structs.swift */,
-				D54A1C8626AC7999003A1226 /* Extensions.swift */,
 				D54A1C8026AB3DE9003A1226 /* IntroductionView.swift */,
 				D54A1C8426AC75D7003A1226 /* PretestChamberView.swift */,
 				D54A1C5726AB3D79003A1226 /* Assets.xcassets */,
@@ -272,7 +269,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D54A1C8526AC75D7003A1226 /* PretestChamberView.swift in Sources */,
-				D54A1C8726AC7999003A1226 /* Extensions.swift in Sources */,
 				D54A1C8326AC6DA1003A1226 /* Structs.swift in Sources */,
 				D54A1C5626AB3D77003A1226 /* ContentView.swift in Sources */,
 				D54A1C8126AB3DE9003A1226 /* IntroductionView.swift in Sources */,
