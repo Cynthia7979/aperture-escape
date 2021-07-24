@@ -13,6 +13,10 @@
 		D54A1C5B26AB3D79003A1226 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D54A1C5A26AB3D79003A1226 /* Preview Assets.xcassets */; };
 		D54A1C6626AB3D79003A1226 /* Aperture_EscapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A1C6526AB3D79003A1226 /* Aperture_EscapeTests.swift */; };
 		D54A1C7126AB3D79003A1226 /* Aperture_EscapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A1C7026AB3D79003A1226 /* Aperture_EscapeUITests.swift */; };
+		D54A1C8126AB3DE9003A1226 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A1C8026AB3DE9003A1226 /* IntroductionView.swift */; };
+		D54A1C8326AC6DA1003A1226 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A1C8226AC6DA1003A1226 /* Structs.swift */; };
+		D54A1C8526AC75D7003A1226 /* PretestChamberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A1C8426AC75D7003A1226 /* PretestChamberView.swift */; };
+		D54A1C8726AC7999003A1226 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A1C8626AC7999003A1226 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		D54A1C6C26AB3D79003A1226 /* Aperture EscapeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aperture EscapeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D54A1C7026AB3D79003A1226 /* Aperture_EscapeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aperture_EscapeUITests.swift; sourceTree = "<group>"; };
 		D54A1C7226AB3D79003A1226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D54A1C8026AB3DE9003A1226 /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
+		D54A1C8226AC6DA1003A1226 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		D54A1C8426AC75D7003A1226 /* PretestChamberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretestChamberView.swift; sourceTree = "<group>"; };
+		D54A1C8626AC7999003A1226 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../../../../Downloads/Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 			children = (
 				D54A1C5326AB3D77003A1226 /* Aperture_EscapeApp.swift */,
 				D54A1C5526AB3D77003A1226 /* ContentView.swift */,
+				D54A1C8226AC6DA1003A1226 /* Structs.swift */,
+				D54A1C8626AC7999003A1226 /* Extensions.swift */,
+				D54A1C8026AB3DE9003A1226 /* IntroductionView.swift */,
+				D54A1C8426AC75D7003A1226 /* PretestChamberView.swift */,
 				D54A1C5726AB3D79003A1226 /* Assets.xcassets */,
 				D54A1C5C26AB3D79003A1226 /* Info.plist */,
 				D54A1C5926AB3D79003A1226 /* Preview Content */,
@@ -259,7 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D54A1C8526AC75D7003A1226 /* PretestChamberView.swift in Sources */,
+				D54A1C8726AC7999003A1226 /* Extensions.swift in Sources */,
+				D54A1C8326AC6DA1003A1226 /* Structs.swift in Sources */,
 				D54A1C5626AB3D77003A1226 /* ContentView.swift in Sources */,
+				D54A1C8126AB3DE9003A1226 /* IntroductionView.swift in Sources */,
 				D54A1C5426AB3D77003A1226 /* Aperture_EscapeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
