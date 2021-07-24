@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct IntroductionView: View {
+    let gameState: GameState
     var body: some View {
         NavigationView {
             ScrollView {
@@ -21,9 +22,11 @@ As you entered the Pre-Test Chamber, a prerecorded robotic voice gave some instr
 """)
                         .padding()
                     
-                    NavigationLink("Look Around", destination: PretestChamberView())
+                    NavigationLink("Look Around", destination: PretestChamberView(gameState: gameState))
                         .font(.title2)
                         .padding()
+                    
+                    Spacer()
                 }
             }
             .navigationBarTitle("The Transportation")
@@ -34,6 +37,6 @@ As you entered the Pre-Test Chamber, a prerecorded robotic voice gave some instr
 
 struct IntroductionView_Previews: PreviewProvider {
     static var previews: some View {
-        IntroductionView()
+        IntroductionView(gameState: GameState())
     }
 }

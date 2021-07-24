@@ -8,31 +8,40 @@
 import SwiftUI
 
 struct PretestChamberView: View {
+    let gameState: GameState
     var body: some View {
         GeometryReader { metric in
             NavigationView {
                 ScrollView {
                     VStack {
-                        Text("You look around and saw the following things in the Pre-Test Chamber:")
+                        Text("You look around and spotted the following things in the Pre-Test Chamber:")
                             .padding()
                         
                         HStack {
-                            Group {
-                                Image("portalGun")
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fit)
-                                    .cornerRadius(25)
+                            NavigationLink(destination: ItemPortalGunView(gameState: gameState)) {
+                                ImageButton(imageName: "portalGun", label: "Portal Gun", width: (metric.size.width*0.5))
+                                    .padding(.trailing)
                             }
-                            .frame(width: metric.size.width*0.5)
                             
-                            Group {
-                                Image("portalGun")
-                                    .resizable()
-                                    .aspectRatio(contentMode: .fit)
-                                    .cornerRadius(25)
+                            NavigationLink(destination: ItemBottleOfLiquidView(gameState: gameState)) {
+                                ImageButton(imageName: "nightvisionPotion", label: "Bottle of Liquid", width: (metric.size.width*0.35))
+                                    .padding(.trailing)
                             }
-                            .frame(width: 125)
                         }
+                        .padding(.top)
+                        
+                        HStack {
+                            NavigationLink(destination: ChamberDoorView(gameState: gameState)) {
+                                ImageButton(imageName: "chamberDoor", label: "Chamber Door", width: (metric.size.width*0.45))
+                            }
+                            
+                            NavigationLink(destination: BrokenWallPanelView(gameState: gameState)) {
+                                ImageButton(imageName: "brokenPanels", label: "Broken Wall Panel", width: (metric.size.width*0.45))
+                            }
+                        }
+                        .padding(.bottom)
+                        
+                        Spacer()
                     }
                 }
             }
@@ -42,6 +51,6 @@ struct PretestChamberView: View {
 
 struct PretestChamberView_Previews: PreviewProvider {
     static var previews: some View {
-        PretestChamberView()
+        PretestChamberView(gameState: GameState())
     }
 }

@@ -19,7 +19,19 @@ struct HeaderImage: View {
     }
 }
 
-// I tried making a custom struct for frequently used navigationLink styles,
-// but they simply don't work. I'll break the DRY rule for once now.
-
-
+struct ImageButton: View {
+    let imageName: String
+    let label: String
+    let width: CGFloat
+    var body: some View {
+        VStack {
+            Image(imageName)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .cornerRadius(25)
+            
+            Text(label)
+        }
+        .frame(width: width)
+    }
+}
