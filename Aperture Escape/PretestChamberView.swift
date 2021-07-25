@@ -38,8 +38,6 @@ struct PretestChamberView: View {
                         }
                     }
                     .padding(.bottom)
-                    
-                    Spacer()
                 }
                 .padding()
             }

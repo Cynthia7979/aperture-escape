@@ -17,7 +17,7 @@ struct DuckDownView: View {
                 Text("It didn't help! The impact of explosion threw you into midair. You landed hard, head first, and felt excruciating pain. You heard the sound of additional missiles being fired before falling into unconsciousness.")
                     .padding()
                 
-                EndingNote(label1: "Bad End: Torn Into Pieces")
+                EndingNote(label1: "Bad Ending: Torn Into Pieces")
             }
         }
         .preferredColorScheme(.dark)

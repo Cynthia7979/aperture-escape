@@ -26,8 +26,6 @@ struct BrokenWallPanelView: View {
                         .bold()
                         .padding()
                 }
-                
-                Spacer()
             }
         }
         .navigationBarTitle("Broken Wall Panels")

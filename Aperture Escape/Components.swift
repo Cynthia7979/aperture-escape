@@ -62,4 +62,5 @@ class GameState: ObservableObject {
     var didChange = PassthroughSubject<Void, Never>()
     
     var nightVisionEnabled = false { didSet { didChange.send() } }
+    var playerName = "" { didSet { didChange.send() } }
 }

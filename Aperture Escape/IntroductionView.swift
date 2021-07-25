@@ -15,7 +15,7 @@ struct IntroductionView: View {
                 HeaderImage(imageName: "relaxationVault")
                 
                 Text("""
-You, namely Test Subject #91946, had just been transported from the Relaxation Center to a newly constructed Test Track.
+You, Test Subject #91946, or, namely, \(gameState.playerName), had just been transported from the Relaxation Center to a newly constructed Test Track.
 
 As you entered the Pre-Test Chamber, a prerecorded robotic voice gave some instructions through the loudspeakers. But then after a loud noise of explosion, everything turned silent.
 """)
@@ -24,8 +24,6 @@ As you entered the Pre-Test Chamber, a prerecorded robotic voice gave some instr
                 NavigationLink("Look Around", destination: PretestChamberView(gameState: gameState))
                     .font(.title2)
                     .padding()
-                
-                Spacer()
             }
         }
         .navigationBarTitle("The Transportation")

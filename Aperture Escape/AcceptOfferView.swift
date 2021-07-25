@@ -17,7 +17,7 @@ struct AcceptOfferView: View {
                 Text("You were teleported back onto an Aperture Science Unstationary Scaffold Transporter. Time to test for the cake! Or … to be baked?")
                     .padding()
                 
-                EndingNote(label1: "Bad End: You Will be Baked, and Then There Will Be Cake")
+                EndingNote(label1: "Bad Ending: You Will be Baked, and Then There Will Be Cake")
             }
         }
         .navigationBarTitle("Back to Testing")

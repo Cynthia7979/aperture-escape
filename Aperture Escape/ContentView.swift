@@ -11,6 +11,9 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var gameState = GameState()
+    @State private var nameField = ""
+    @State private var selection: Int? = nil
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -20,13 +23,27 @@ struct ContentView: View {
                     .padding(.bottom)
                     .padding(.top)
                 
-                NavigationLink("Go!", destination: IntroductionView(gameState: gameState))
-                    .font(.title)
+                TextField("Insert Your Name Here", text: $nameField)
+                    .font(.title2)
+                    .multilineTextAlignment(.center)
+                    .frame(height: 35)
                     .padding()
                 
-                Spacer()
+                NavigationLink(
+                    "Go!",
+                    destination: IntroductionView(gameState: gameState),
+                    tag: 1,
+                    selection: $selection
+                )
+                .font(.title)
+                .disabled(nameField == "")
+                .onChange(of: selection, perform: { value in
+                    gameState.playerName = nameField
+                })
+                .padding()
             }
             .navigationBarTitle("Aperture Escape")
+            .preferredColorScheme(.light)
         }
     }
 }
