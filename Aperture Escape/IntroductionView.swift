@@ -29,6 +29,7 @@ As you entered the Pre-Test Chamber, a prerecorded robotic voice gave some instr
             }
         }
         .navigationBarTitle("The Transportation")
+        .preferredColorScheme(.light)
     }
 }
 

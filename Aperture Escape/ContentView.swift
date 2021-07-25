@@ -4,6 +4,8 @@
 //
 //  Created by Xia He on 2021/7/24.
 //
+//  Note: Due to problems with protocols and types about View, I can't achieve DRY code on those associated with NavigationLink.
+//
 
 import SwiftUI
 

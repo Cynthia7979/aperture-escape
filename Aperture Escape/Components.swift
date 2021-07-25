@@ -32,8 +32,28 @@ struct ImageButton: View {
                 .cornerRadius(25)
             
             Text(label)
+                .font(.title3)
         }
         .frame(width: width)
+    }
+}
+
+struct EndingNote: View {
+    var label1 = "You Are Dead"
+    var label2 = "Press 'Back' at the upper left corner to return to the last step."
+    var body: some View {
+        VStack {
+            Text("\n\n\(label1)")
+                .bold()
+                .font(.title)
+                .fixedSize(horizontal: false, vertical: true)
+            
+            Text(label2)
+                .font(.caption)
+                .padding(.top, 3)
+                .fixedSize(horizontal: false, vertical: true)
+        }
+        .multilineTextAlignment(.center)
     }
 }
 

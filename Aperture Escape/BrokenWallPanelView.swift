@@ -31,6 +31,7 @@ struct BrokenWallPanelView: View {
             }
         }
         .navigationBarTitle("Broken Wall Panels")
+        .preferredColorScheme(.light)
     }
 }
 

@@ -44,6 +44,8 @@ struct PretestChamberView: View {
                 .padding()
             }
         }
+        .preferredColorScheme(.light)
+        .navigationBarTitle("Pre-Test Chamber")
     }
 }
 

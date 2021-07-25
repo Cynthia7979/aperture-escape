@@ -19,6 +19,7 @@ struct ItemPortalGunView: View {
             }
         }
         .navigationBarTitle("Portal Gun")
+        .preferredColorScheme(.light)
     }
 }
 
