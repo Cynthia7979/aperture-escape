@@ -14,7 +14,7 @@
 		D54A1C6626AB3D79003A1226 /* Aperture_EscapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A1C6526AB3D79003A1226 /* Aperture_EscapeTests.swift */; };
 		D54A1C7126AB3D79003A1226 /* Aperture_EscapeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A1C7026AB3D79003A1226 /* Aperture_EscapeUITests.swift */; };
 		D54A1C8126AB3DE9003A1226 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A1C8026AB3DE9003A1226 /* IntroductionView.swift */; };
-		D54A1C8326AC6DA1003A1226 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A1C8226AC6DA1003A1226 /* Structs.swift */; };
+		D54A1C8326AC6DA1003A1226 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A1C8226AC6DA1003A1226 /* Components.swift */; };
 		D54A1C8526AC75D7003A1226 /* PretestChamberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A1C8426AC75D7003A1226 /* PretestChamberView.swift */; };
 		D54A1C8926AC7EA4003A1226 /* ItemPortalGunView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A1C8826AC7EA4003A1226 /* ItemPortalGunView.swift */; };
 		D54A1C8B26AC8633003A1226 /* ItemBottleOfLiquidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54A1C8A26AC8633003A1226 /* ItemBottleOfLiquidView.swift */; };
@@ -53,7 +53,7 @@
 		D54A1C7026AB3D79003A1226 /* Aperture_EscapeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aperture_EscapeUITests.swift; sourceTree = "<group>"; };
 		D54A1C7226AB3D79003A1226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D54A1C8026AB3DE9003A1226 /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
-		D54A1C8226AC6DA1003A1226 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		D54A1C8226AC6DA1003A1226 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
 		D54A1C8426AC75D7003A1226 /* PretestChamberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PretestChamberView.swift; sourceTree = "<group>"; };
 		D54A1C8826AC7EA4003A1226 /* ItemPortalGunView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPortalGunView.swift; sourceTree = "<group>"; };
 		D54A1C8A26AC8633003A1226 /* ItemBottleOfLiquidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBottleOfLiquidView.swift; sourceTree = "<group>"; };
@@ -112,7 +112,7 @@
 				D54A1C8A26AC8633003A1226 /* ItemBottleOfLiquidView.swift */,
 				D54A1C5326AB3D77003A1226 /* Aperture_EscapeApp.swift */,
 				D54A1C5526AB3D77003A1226 /* ContentView.swift */,
-				D54A1C8226AC6DA1003A1226 /* Structs.swift */,
+				D54A1C8226AC6DA1003A1226 /* Components.swift */,
 				D54A1C8026AB3DE9003A1226 /* IntroductionView.swift */,
 				D54A1C8426AC75D7003A1226 /* PretestChamberView.swift */,
 				D54A1C8E26AC9346003A1226 /* BrokenWallPanelView.swift */,
@@ -284,7 +284,7 @@
 				D54A1C8F26AC9346003A1226 /* BrokenWallPanelView.swift in Sources */,
 				D54A1C8D26AC87B1003A1226 /* ChamberDoorView.swift in Sources */,
 				D54A1C8926AC7EA4003A1226 /* ItemPortalGunView.swift in Sources */,
-				D54A1C8326AC6DA1003A1226 /* Structs.swift in Sources */,
+				D54A1C8326AC6DA1003A1226 /* Components.swift in Sources */,
 				D54A1C5626AB3D77003A1226 /* ContentView.swift in Sources */,
 				D54A1C8126AB3DE9003A1226 /* IntroductionView.swift in Sources */,
 				D54A1C8B26AC8633003A1226 /* ItemBottleOfLiquidView.swift in Sources */,

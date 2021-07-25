@@ -10,7 +10,15 @@ import SwiftUI
 struct ItemPortalGunView: View {
     let gameState: GameState
     var body: some View {
-        Text("Hello, World!")
+        ScrollView {
+            VStack {
+                HeaderImage(imageName: "portalGunWide")
+                
+                Text("The Aperture Science Handheld Portal Device™ is in your hand. You should be able to create portals with it, but you can really get nowhere with them in this closed chamber.")
+                    .padding()
+            }
+        }
+        .navigationBarTitle("Portal Gun")
     }
 }
 

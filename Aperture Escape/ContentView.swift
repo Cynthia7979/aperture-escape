@@ -6,14 +6,6 @@
 //
 
 import SwiftUI
-import Combine
-
-// Tutorial for ObjectBinding (Observing): https://www.youtube.com/watch?v=stSB04C4iS4
-class GameState: ObservableObject {
-    var didChange = PassthroughSubject<Void, Never>()
-    
-    var nightVisionEnabled = false { didSet { didChange.send() } }
-}
 
 struct ContentView: View {
     @ObservedObject var gameState = GameState()

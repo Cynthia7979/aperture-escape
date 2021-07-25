@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftUI
+import Combine
 
 struct HeaderImage: View {
     let imageName: String
@@ -34,4 +35,11 @@ struct ImageButton: View {
         }
         .frame(width: width)
     }
+}
+
+// Tutorial for ObjectBinding (Observing): https://www.youtube.com/watch?v=stSB04C4iS4
+class GameState: ObservableObject {
+    var didChange = PassthroughSubject<Void, Never>()
+    
+    var nightVisionEnabled = false { didSet { didChange.send() } }
 }

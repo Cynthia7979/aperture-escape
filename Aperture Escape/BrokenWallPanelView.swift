@@ -10,7 +10,27 @@ import SwiftUI
 struct BrokenWallPanelView: View {
     let gameState: GameState
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            VStack {
+                HeaderImage(imageName: "brokenPanelsWide")
+                
+                Text(
+                    "A part of the wall seems to be only loosely connected to its base.\n\n" +
+                        (gameState.nightVisionEnabled ? "Thanks to the Nightvision Potion, you noticed that a whiteboard is stuck between the mechanical parts. You reached for it, and it came off pretty easily. The whiteboard was almost entirely covered with handwritten physics formulas, but on top of them wrote in large and dark letters:" : "There might be something behind it, but you can’t see it.")
+                )
+                .padding()
+                
+                if gameState.nightVisionEnabled {
+                    Text("Cake is a Lie.")
+                        .font(.title)
+                        .bold()
+                        .padding()
+                }
+                
+                Spacer()
+            }
+        }
+        .navigationBarTitle("Broken Wall Panels")
     }
 }
 

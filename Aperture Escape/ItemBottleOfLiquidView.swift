@@ -10,7 +10,17 @@ import SwiftUI
 struct ItemBottleOfLiquidView: View {
     let gameState: GameState
     var body: some View {
-        Text("Hello, World!")
+        GeometryReader { metric in
+            ScrollView {
+                VStack {
+                    HStack {
+                        ImageButton(imageName: "nightvisionPotion", label: "", width: metric.size.width*0.2)
+                    }
+                    .frame(width: metric.size.width)
+                        
+                }
+            }
+        }
     }
 }
 
