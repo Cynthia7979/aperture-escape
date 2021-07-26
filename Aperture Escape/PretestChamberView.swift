@@ -13,7 +13,8 @@ struct PretestChamberView: View {
         GeometryReader { metric in
             ScrollView {
                 VStack {
-                    Text("\nYou looked around and spotted the following things in the Pre-Test Chamber:\n")
+                    Text("You looked around and spotted the following things in the Pre-Test Chamber:")
+                        .padding()
                     
                     HStack {
                         NavigationLink(destination: ItemPortalGunView(gameState: gameState)) {

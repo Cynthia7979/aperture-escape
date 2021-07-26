@@ -25,17 +25,17 @@ struct ItemBottleOfLiquidView: View {
                         
                         NavigationLink("Drink It",
                                        destination: VStack {
-                                        Text("It looks eerie and dirty, but you drank it anyway. Immediately, your vision becomes clearer and you can see through the dark now. It is a Nightvision Potion! ")
-                                            .padding()
-                                        Spacer()
+                                            Text("It looks eerie and dirty, but you drank it anyway. Immediately, your vision becomes clearer and you can see through the dark now. It is a Nightvision Potion! ")
+                                                .padding()
+                                            Spacer()
                                        },
                                        tag: true,
                                        selection: $drankState
                         ).font(.title2)
+                        .padding()
                         .onChange(of: drankState, perform: { value in
                             gameState.nightVisionEnabled = true
                         })
-                        .padding()
                     } else {
                         CentralImage(imageName: "emptyBottle", fullWidth: metric.size.width)
                         

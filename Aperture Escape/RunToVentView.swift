@@ -22,7 +22,7 @@ struct RunToVentView: View {
                     ImageButton(imageName: "crowbar", label: "", width: metric.size.width*0.8)
                     
                     Text("With a crowbar out of nowhere, you broke it open and crawled inside. Fortunately, the neurotoxin floated high above the floor, so you are safe from being suffocated here.")
-                    .padding()
+                        .padding()
                     
                     NavigationLink("Move Forward", destination: CentralAIChamberView(gameState: gameState))
                         .font(.title2)

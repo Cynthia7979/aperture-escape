@@ -25,16 +25,16 @@ struct FirePortalsView: View {
                 if (gameState.playerName == "Gordon Freeman") ||
                     (gameState.playerName == "Gordon") ||
                     (gameState.playerName == "Freeman") {
-                    EndingNote(label1: "True Ending 1: Level 3 Research Associate Scientist", label2: "")
-                        .foregroundColor(.blue)
+                        EndingNote(label1: "True Ending 1: Level 3 Research Associate Scientist", label2: "")
+                            .foregroundColor(.blue)
                 } else {
                     if (gameState.playerName == "G-Man") ||
                         (gameState.playerName == "G-man") ||
                         (gameState.playerName == "g-man") ||
                         (gameState.playerName == "Gman") ||
-                            (gameState.playerName == "G") {
-                        EndingNote(label1: "True Ending 2: Not A Wise Choice (For Black Mesa)", label2: "")
-                            .foregroundColor(.blue)
+                        (gameState.playerName == "G") {
+                            EndingNote(label1: "True Ending 2: Not A Wise Choice (For Black Mesa)", label2: "")
+                                .foregroundColor(.blue)
                     } else {
                         EndingNote(label1: "Good Ending: You Are A Researcher Now", label2: "Try to find the True Ending... if you hadn't already done so.")
                     }
